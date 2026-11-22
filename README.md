@@ -4,7 +4,7 @@ What drives a song's streams? An end-to-end Excel analysis of 952 of Spotify's m
 
 **Headline:** Songs on the most playlists average **1,248M streams, 8.6x** the lowest quarter (145M). Playlist counts track streams closely (**r = 0.79**), while danceability, energy, mood and speechiness show almost no link (**-0.03 to -0.11**).
 
-![Dashboard](images/dashboard.png)
+![Dashboard](Dashboard.png)
 
 ## Key findings
 
