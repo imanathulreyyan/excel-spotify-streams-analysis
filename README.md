@@ -49,7 +49,7 @@ Tables and structured references, PivotTables and PivotCharts, Slicers with Repo
 |---|---|
 | `Spotify_Analysis.xlsx` | Full workbook: Dashboard, Calc, Cleaning_Log, 6 pivot sheets, Data, Raw_Data |
 | `spotify-2023.csv` | Original dataset |
-| `images/dashboard.png` | Dashboard screenshot |
+| Dashboard.png` | Dashboard screenshot |
 
 ## Dataset
 
