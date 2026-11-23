@@ -1,4 +1,4 @@
-# Spotify Most Streamed Songs 2023: Excel Analysis
+# 🎶 Spotify Most Streamed Songs 2023: Excel Analysis
 
 What drives a song's streams? An end-to-end Excel analysis of 952 of Spotify's most streamed songs of 2023: data checks, helper columns, pivot tables, slicers and an interactive dashboard.
 
@@ -6,7 +6,7 @@ What drives a song's streams? An end-to-end Excel analysis of 952 of Spotify's m
 
 ![Dashboard](Dashboard.png)
 
-## Key findings
+## 🔑 Key findings
 
 | # | Finding | Evidence |
 |---|---|---|
@@ -17,18 +17,18 @@ What drives a song's streams? An end-to-end Excel analysis of 952 of Spotify's m
 | 5 | A few artists dominate | The top 10 lead artists generate 24.3% of all 489.5B streams, led by The Weeknd (21.5B) |
 | 6 | Very few songs pass 2 billion | 31 of 952 songs (3%); Blinding Lights leads with 3.70B |
 
-**Recommendation:** prioritise playlist placement over changing a song's sound, since playlist reach is the strongest signal of streams.
+**💡 Recommendation:** prioritise playlist placement over changing a song's sound, since playlist reach is the strongest signal of streams.
 
 **Caution:** correlation is not causation. Hits also attract playlists, so this data cannot prove that playlists cause streams.
 
-## Dashboard
+## 📊 Dashboard
 
 - **6 PivotCharts**, each with a statement heading and a note
 - **3 slicers** (Era, Artist Type, Mode) connected to every pivot table
 - **6 KPI tiles:** songs, total streams, average streams per song, most streamed, playlist effect, audio effect
 - The pivot charts and the first KPI tiles use `GETPIVOTDATA` and respond to the slicers. The correlation chart and the Most Streamed and Audio Effect tiles always show all songs.
 
-## Data preparation
+## 🧹 Data preparation
 
 Every step is recorded in the `Cleaning_Log` sheet (12 checks).
 
@@ -39,11 +39,11 @@ Every step is recorded in the `Cleaning_Log` sheet (12 checks).
 - Added helper columns: `Streams_M`, `Lead_Artist`, `Artist_Type`, `Era`, `Playlist_Tier`
 - Converted the data to a table (`tblSpotify`) so all pivots share one source
 
-## Excel skills used
+## 📈 Excel skills used
 
 Tables and structured references, PivotTables and PivotCharts, Slicers with Report Connections, `GETPIVOTDATA`, `CORREL`, `MEDIAN`, `MAX`, `IFERROR`, `SUMPRODUCT`, `COUNTIF`, Go To Special, Text to Columns, custom number formats, shape-linked KPI tiles, hyperlink navigation, dashboard design.
 
-## Files
+## 📁 Files
 
 | File | What it is |
 |---|---|
@@ -51,11 +51,11 @@ Tables and structured references, PivotTables and PivotCharts, Slicers with Repo
 | `spotify-2023.csv` | Original dataset |
 | `Dashboard.png` | Dashboard screenshot |
 
-## Dataset
+## 📦 Dataset
 
 [Most Streamed Spotify Songs 2023](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023) (Kaggle). It covers popular songs from 2023, not all songs on Spotify, so findings describe this group only.
 
-## Author
+## 👩‍💻 Author
 
 **Imanathul Reyyan**, BSc Applied Data Analytics, University of Colombo
-[Portfolio](https://imanathulreyyan.github.io) | [LinkedIn](https://www.linkedin.com/in/imanathul-reyyan)
+🌐[Portfolio](https://imanathulreyyan.github.io) | 🔗 [LinkedIn](https://www.linkedin.com/in/imanathul-reyyan) | ✉️ imanareyyan@gmail.com
